@@ -13,7 +13,7 @@ Technologies used include:
 
 ## Project Dependency
 
-* [Please see this graph](Dependencies Graph.png)
+![Please see this graph](Dependencies Graph.png "Please see this graph")
 
 ## TODO
 
