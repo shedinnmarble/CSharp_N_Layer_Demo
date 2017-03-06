@@ -9,9 +9,9 @@ Technologies used include:
 * Interface based programming
 * Any Database which implements the IDAL is OK
 * Log4net to save the log
-# Project Dependency
+## Project Dependency
 * [Please see this graph](Dependencies Graph.png)
-# TODO
+## TODO
 * Implement session module, Save session into Redis or Memcached
 * Integrate Spring AOP to monitor all the method call or permission check
 * Write Unit Test to fully test all the main methods
