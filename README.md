@@ -24,3 +24,4 @@ Technologies used include:
 * Implement session module, Save session into Redis or Memcached
 * Integrate Spring AOP to monitor all the method call or permission check
 * Write Unit Test to fully test all the main methods
+* Implement a basic user information management function using Bootstrap etc.
