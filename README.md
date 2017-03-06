@@ -1,6 +1,6 @@
 # C# Enterprise Application Project Structure
 
-This is a highly scalable project structure, it enables you to customize your project in all direction.
+This is a highly scalable project structure, it enables you to customize your project in all direction. please leave a comment if you have any question related to this project, I'll try my best to answer you.
 Technologies used include:
 * .NET 4.6.1
 * ASP.NET MVC5
