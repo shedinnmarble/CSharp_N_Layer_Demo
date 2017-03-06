@@ -8,8 +8,10 @@ Technologies used include:
 * Abstract Factory Design Pattern for DAL layer
 * Entity Framework 6, Database first pattern
 * Interface based programming
+* Generic programming
 * Any Database which implements the IDAL is OK
 * Log4net to save the log
+* T4 template engine to generate all the repeat smliar logic code. for example, IUserDal, IPersonDal, IAccountDal, the basic code are the same.
 
 ## Project Dependency
 
