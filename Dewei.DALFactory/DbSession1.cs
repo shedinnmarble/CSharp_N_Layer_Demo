@@ -1,5 +1,4 @@
 ﻿ 
-using Dewei.EFDAL;
 using Dewei.IDAL;
 
 namespace Dewei.DALFactory

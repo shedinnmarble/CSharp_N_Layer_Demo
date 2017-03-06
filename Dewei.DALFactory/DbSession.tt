@@ -17,7 +17,6 @@ string namespaceName = code.VsNamespaceSuggestion();
 EntityFrameworkTemplateFileManager fileManager = EntityFrameworkTemplateFileManager.Create(this);
 
 #>
-using Dewei.EFDAL;
 using Dewei.IDAL;
 
 namespace Dewei.DALFactory

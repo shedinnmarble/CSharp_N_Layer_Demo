@@ -288,6 +288,10 @@
       <Project>{8a75d3b8-244c-4120-9b20-50c4ce4b0b34}</Project>
       <Name>Dewei.BLL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Dewei.EFDAL\Dewei.EFDAL.csproj">
+      <Project>{5a197178-dd62-4453-adf9-1c3175fed87a}</Project>
+      <Name>Dewei.EFDAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Dewei.IBLL\Dewei.IBLL.csproj">
       <Project>{c821dd95-ee1f-4545-bae5-7f08d446569a}</Project>
       <Name>Dewei.IBLL</Name>

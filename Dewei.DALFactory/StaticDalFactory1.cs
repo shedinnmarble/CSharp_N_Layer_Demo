@@ -6,16 +6,13 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web;
-using Dewei.EFDAL;
 using Dewei.IDAL;
 
 
 namespace Dewei.DALFactory
 {
     /// <summary>
-    /// 由简单工厂转变成了抽象工厂。
-    /// 抽象工厂  VS  简单工厂
-    /// 
+    /// Abstract factory
     /// </summary>
     public partial class StaticDalFactory
     {

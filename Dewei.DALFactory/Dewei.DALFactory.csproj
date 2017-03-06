@@ -67,10 +67,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Dewei.EFDAL\Dewei.EFDAL.csproj">
-      <Project>{5A197178-DD62-4453-ADF9-1C3175FED87A}</Project>
-      <Name>Dewei.EFDAL</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Dewei.IDAL\Dewei.IDAL.csproj">
       <Project>{f7d6edb9-a66c-47f8-9f81-69e77b06461b}</Project>
       <Name>Dewei.IDAL</Name>

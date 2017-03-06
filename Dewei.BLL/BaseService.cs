@@ -22,13 +22,16 @@ namespace Dewei.BLL
             }
         }
 
-        public BaseService()//基类的构造函数
+        public BaseService()//
         {
-            SetCurrentDal();//抽象方法。
+            //abstract method
+            SetCurrentDal();
             //CurrentDal = currentDal;
         }
-
-        public abstract void SetCurrentDal();//抽象方法：要求子类必须实现。
+        /// <summary>
+        /// Abstract method, Subclass must implement it.
+        /// </summary>
+        public abstract void SetCurrentDal();
 
         #region Query
 

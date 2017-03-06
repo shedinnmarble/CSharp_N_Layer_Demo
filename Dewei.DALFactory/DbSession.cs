@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Dewei.EFDAL;
 using Dewei.IDAL;
 
 namespace Dewei.DALFactory
@@ -12,7 +11,7 @@ namespace Dewei.DALFactory
     {
         public int SaveChanges()
         {
-            return DbContextFactory.GetCurrentDbContext().SaveChanges();
+            return DbSessionFactory.GetCurrentDbSession().SaveChanges();
         }
     }
 }
