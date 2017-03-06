@@ -19,6 +19,9 @@ Technologies used include:
 
 ![Please see this graph](Dependencies Graph.png "Please see this graph")
 
+## Visual Studio Screenshot
+
+![Please see this Screenshot](VS Screenshot.png "Please see this Screenshot")
 ## TODO
 
 * Implement session module, Save session into Redis or Memcached
