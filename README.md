@@ -4,14 +4,16 @@ This is a highly scalable project structure, it enables you to customize your pr
 Technologies used include:
 * .NET 4.6.1
 * ASP.NET MVC5
-* Spring framework for DI
+* Spring framework 2 for DI
 * Abstract Factory Design Pattern for DAL layer
 * Entity Framework 6, Database first pattern
 * Interface based programming
 * Generic programming
-* Any Database which implements the IDAL is OK
+* Any Database(MS SQL Server, Oracle and MySQL etc) or ORM which implements the IDAL is OK. For example, you can add NHibernate, Dapper and MyBatis.NET etc, just create another XXDAL implements IDAL, and change the DalAssemblyName at web.config
 * Log4net to save the log
-* T4 template engine to generate all the repeat smliar logic code. for example, IUserDal, IPersonDal, IAccountDal, the basic code are the same.
+* T4 template engine to generate all the repeat similar logic code. For example, IUserDal, IPersonDal, IAccountDal, the basic code are the same.
+* Git for continuous integration
+* VS2015
 
 ## Project Dependency
 
